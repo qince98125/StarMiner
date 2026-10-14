@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.qince.starminer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["EntityGravityMixin", "LivingEntityGravityMixin", "PlayerGravityMixin", "ServerMovementGravityMixin", "ServerPlayerGravityMixin"],
+  "client": ["client.CameraGravityMixin", "client.LocalPlayerGravityMixin", "client.ScreenEffectGravityMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
